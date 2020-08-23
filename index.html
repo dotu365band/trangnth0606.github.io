@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('.click-menu').click(function () {
+                e1 = $('#rate-content');
+                e1.addClass('slide-right');
+                e1.one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
+                    function (e) {
+                        e1.removeClass('slide-right');
+                    });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="tong-hop-cac-mau-background-dep-nhat-10070-13.jpg" class="nen" alt="back">
+        <div class="banner">
+            <div class="custom-center">
+                <div class="chuchay align-items-center">
+                    <h3>I'm <span class="gochu">Huyen Trang</span></h3>
+                </div>
+                <div class="social-header">
+                    <script>
+                        var typed = new Typed('.gochu', {
+                            // Waits 1000ms after typing "First"
+                            strings: ['pass test.', 'given to high score.'],
+                            typeSpeed: 30,
+                            backSpeed: 30,
+                            loop: true,
+                        });
+                    </script>
+                    <i class="fa fa-facebook" style="font-size: 30px;"></i>
+                    <i class="fa fa-twitter" style="font-size: 30px;"></i>
+                    <i class="fa fa-google-plus" style="font-size: 30px;"></i>
+                    <div class="scroll-down">
+                        <div class="scroll-down-icon">
+                            <a href="#infor" class="scroll-down-animation">
+                                <i class="fa fa-angle-down" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </header>
+    
+    <!--Info-->
+    <section>
+        <div class="infor" id="infor">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="anhthe">
+                        <img src="st,small,507x507-pad,600x600,f8f8f8.jpg" height="450px">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <p style="margin-top: 35px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                        and scrambled it to make a type specimen book.</p>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--Experience-->
+    <section>
+        <div class="kinhnghiem container-fluid">
+            <div class="row text-center">
+                <div class="col-sm-3">
+                    <i class="fa fa-desktop" style="font-size: 30px;"></i>
+                    <br>
+                    <label>Check in customer</label> <br>
+                    <p1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p1>
+                </div>
+                <div class="col-sm-3">
+                    <i class="fa fa-briefcase" style="font-size: 30px;"></i>
+                    <br>
+                    <label>Check in customer</label> <br>
+                    <p1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p1>
+                </div>
+                <div class="col-sm-3">
+                    <i class="fa fa-print" style="font-size: 30px;"></i>
+                    <br>
+                    <label>Check in customer</label> <br>
+                    <p1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p1>
+                </div>
+                <div class="col-sm-3">
+                    <i class="fa fa-calendar" style="font-size: 30px;"></i>
+                    <br>
+                    <label>Check in customer</label>
+                    <br>
+                    <p1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Rate-->
+    <section>
+        <div class="note" style="text-align: center;" id="rate">
+            <b style="font-size: 30px;">Rate</b>
+            <nav>
+                <ul>
+                    <li class="menu"><a class="click-menu" style="color: firebrick;">All</a></li>
+                    <li class="menu"><a class="click-menu" style="color: firebrick;">Web design</a></li>
+                    <li class="menu"><a class="click-menu" style="color: firebrick;">HTML</a></li>
+                    <li class="menu"><a class="click-menu" style="color: firebrick;">CSS3</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="rate-content">
+            <div class="hobby">
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <img src="h1.jpg">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="h2.webp">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="H7216a4cf5bab42e39fe63ea88d4d09c3M.jpg">
+                    </div>
+                </div>
+    
+            </div>
+            <div class="hobby">
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <img src="H7216a4cf5bab42e39fe63ea88d4d09c3M.jpg">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="h1.jpg">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="h2.webp">
+                    </div>
+                </div>
+                <div class="Contact" style="text-align: center;">
+                    <b style="font-size: 30px;">Contact</b><br>
+                    <i style="font-size: 18px;">Lorem Ipsum is simply dummy text of the printing</i>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!--Contact-->
+    <section class="lienhe">
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <i class="fa fa-envelope-o" style="font-size: 25px; color:firebrick;"></i><br>
+                <p2 style="font-size: 16px;">baptrang96@gmail.com</p2>
+            </div>
+            <div class="col-sm-4">
+                <i class="fa fa-phone"  style="font-size: 25px; color:firebrick;"></i><br>
+                <p2 style="font-size: 16px;">0979588698</p2>
+            </div>
+            <div class="col-sm-4">
+                <i class="fa fa-user-circle-o"  style="font-size: 25px; color:firebrick;"></i><br>
+                <p2 style="font-size: 16px;">baptrang96@gmail.com</p2>
+            </div>
+        </div>
+    </section>
+
+    <!--Infomation form-->
+    <section>
+        <div class="container-fluid input">
+            <div class="row text-center">
+                <div class="col-sm-1">
+                    Email:
+                </div>
+                <div class="col-sm-5"> 
+                    <input type="email" class="form-control" placeholder="Enter email">
+                </div>
+                <div class="col-sm-1">
+                    Name:
+                </div>
+                <div class="col-sm-5"> 
+                    <input type="text" class="form-control" placeholder="Enter name">
+                </div>
+            </div>
+            <br>
+            <div class="row text-center">
+                <div class="col-sm-1">
+                    Mess:
+                </div>
+                <div class="col-sm-11">
+                    <input type="text" class="form-control" placeholder="Enter mess">
+                </div>
+            </div>
+    
+            <br><br>
+            <input type="button" value="Send a mess" class="button">
+        </div>
+    </section>
+    
+    <footer>
+        <i class="fa fa-facebook" style="font-size: 15px;"></i>
+        <i class="fa fa-twitter" style="font-size: 15px;"></i>
+        <i class="fa fa-google-plus" style="font-size: 15px;"></i>
+        <i class="fa fa-instagram" style="font-size: 15px;"></i>
+        <h5>Copyright © 2020 Huyen Trang</h5>
+    </footer>
+</body>
+
+</html>
