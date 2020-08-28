@@ -17,27 +17,20 @@ img {
     margin-bottom: 500px;
 }
 
-.fa-facebook {
-    margin-left: 42.5%;
-}
 
-.fa {
-    margin-right: 30px;
-    font-size: xx-large;
+.social i{
+    margin-left: 30px;
 }
-
 p {
     padding-top: 50px;
 }
 
 .kinhnghiem {
     padding: 20px 0px;
-    background-color: lightsteelblue;
+    background-color:firebrick;
 }
 
-i {
-    font-size: xx-large;
-}
+
 
 .button {
     width: 140px;
@@ -74,7 +67,7 @@ i {
 }
 
 .hobby img {
-    width: 80%;
+    width: 95%;
     height: 200px;
 }
 
@@ -169,4 +162,15 @@ footer h5 {
 }
 .input{
     margin-top: 30px;
+}
+@media (max-width:320px){
+    .star{
+        margin-top: 30px;
+    }
+    .hobby img{
+        margin-top: 30px;
+    }
+    .menu{
+        margin-right: 1px;
+    }
 }
