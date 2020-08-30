@@ -27,7 +27,8 @@ p {
 
 .kinhnghiem {
     padding: 20px 0px;
-    background-color:firebrick;
+    background-color:rrgba(17, 17, 17, 0.925)
+    color: white;
 }
 
 
@@ -66,10 +67,7 @@ p {
     width: 100%;
 }
 
-.hobby img {
-    width: 95%;
-    height: 200px;
-}
+
 
 .scroll-down {
     width: 100%
@@ -156,6 +154,22 @@ footer h5 {
         transform: translateY(0);
     }
 }
+.hobby img {
+    width: 300px;
+    height: 200px;
+   
+}
+.hobby img {
+    transition: transform .2s;
+    padding: 40px;
+  }
+  
+  .hobby img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+
+  }
 
 .lienhe{
     margin-top: 20px;
