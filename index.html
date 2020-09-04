@@ -41,19 +41,19 @@
 
 <body>
     <header>
-        <img src="bacc.jpg" class="nen" alt="back" style="height: 400px;">
+        <img src="bacc.jpg" class="nen" alt="back" style="height: 600px;">
         <div class="banner">
             <div class="custom-center">
                 <div class="chuchay align-items-center">
-                    <h3>I'm <span class="gochu">Huyen Trang</span></h3>
+                    <h3>I'm <span class="gochu" data_temp_dwid="1">Huyen Trang</span></h3>
                 </div>
                 <div class="social-header">
                     <script>
                         var typed = new Typed('.gochu', {
                             // Waits 1000ms after typing "First"
                             strings: ['pass test.', 'given to high score.'],
-                            typeSpeed: 30,
-                            backSpeed: 30,
+                            typeSpeed: 70,
+                            backSpeed: 80,
                             loop: true,
                         });
                     </script>
@@ -63,11 +63,7 @@
                     <i class="fa fa-google-plus" style="font-size: 30px;"></i>
                 </div>
                     <div class="scroll-down">
-                        <div class="scroll-down-icon">
-                            <a href="#infor" class="scroll-down-animation">
-                                <i class="fa fa-angle-down" style="font-size: 30px;"></i>
-                            </a>
-                        </div>
+                        <div class="scroll-down-icon"><a href="#infor" class="scroll-down-animation"> <em class="fa fa-angle-down" style="font-size: 30px;"></em> </a></div>
                     </div>
                 </div>
                 
@@ -82,7 +78,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="anhthe">
-                        <img src="st,small,507x507-pad,600x600,f8f8f8.jpg" height="450px">
+                        <img src="10784b0ea90e6e41e1ad8e451cf5aea3.png" height="500px">
                     </div>
                 </div>
                 <div class="col-sm-6 container-fluid">
@@ -99,6 +95,19 @@
     
 
     <!--Experience-->
+	<section class="container-fluid" >
+		<div class="row text-center vidio "> 
+		<h1>VIDEO ABOUT ME</h1>
+		<div class="col-sm-12 col-12">
+		<video poster="3782a-dich-vu-dao-tao-trade-marketing-tai-tphcm.jpg" width="340" height="260" controls>
+        <source src="Animated Videos for Marketing - Process of Creating Awesome Videos for Business - Pulp Strategy.mp4" type="video/mp4">
+  		
+        </video>
+		</div>
+		</div>
+	</section>
+	
+	
     <section>
         <div class="kinhnghiem container-fluid">
             <div class="row text-center">
@@ -193,6 +202,28 @@
                         <img src="8.jpg">
                     </div>
                 </div>
+				<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+				<script>
+				//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+				</script>
                 <div class="Contact" style="text-align: center;">
                     <b style="font-size: 30px;">Contact</b><br>
                     <p style="font-size: 18px;">Lorem Ipsum is simply dummy text of the printing</p>
